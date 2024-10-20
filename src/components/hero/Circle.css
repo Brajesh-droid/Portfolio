@@ -23,19 +23,19 @@ img {
 
 }
 
-@media (max-width: 480px) {
+@media (max-width: 780px) {
   img {
-    top: 85%;
-    left: 15%;
-    height: 50vh;
-    width: 50vh;
+    top: 48%;
+    left: 5%;
+    height: 55vh;
+    width: 43vh;
   }
   .display {
   width: 50vh; 
   height: 50vh;
    gap: 2px;
-   left: 20%;
-   top: 73%;
+   left: 0%;
+   top: 34%;
   border-radius: 50%;
   position: absolute;
   /* background: #ff7e28;  */
