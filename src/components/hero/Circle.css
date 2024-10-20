@@ -1,0 +1,49 @@
+.display {
+  width: 50vh; 
+  height: 50vh;
+   gap: 2px;
+   left: 37%;
+   top: 31%;
+  border-radius: 50%;
+  position: absolute;
+  /* background: #ff7e28;  */
+  overflow: hidden;
+  font-size: 2em;
+  font-weight: bold;
+  text-align: center;
+  z-index: 9;
+}
+img {
+  position: absolute;
+  z-index: 99;
+  top: 50%;
+  left: 41%;
+  height: 55vh;
+  width: 40vh;
+
+}
+
+@media (max-width: 480px) {
+  img {
+    top: 85%;
+    left: 15%;
+    height: 50vh;
+    width: 50vh;
+  }
+  .display {
+  width: 50vh; 
+  height: 50vh;
+   gap: 2px;
+   left: 20%;
+   top: 73%;
+  border-radius: 50%;
+  position: absolute;
+  /* background: #ff7e28;  */
+  overflow: hidden;
+  font-size: 2em;
+  font-weight: bold;
+  text-align: center;
+  z-index: 9;
+}
+}
+
