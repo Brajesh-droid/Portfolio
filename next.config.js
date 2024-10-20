@@ -1,15 +1,11 @@
-
-// next.config.js
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   eslint: {
-    ignoreDuringBuilds: true,
+    ignoreDuringBuilds: true, // Ignore ESLint errors during the build process
+  },
+  images: {
+    domains: ["pbs.twimg.com"], // Allows images from this domain
   },
 };
 
-module.exports = {
-  images: {
-    domains: ["pbs.twimg.com"],
-  },
-};
-export default nextConfig;
+module.exports = nextConfig;
