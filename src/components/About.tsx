@@ -1,8 +1,7 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import { HoverEffect } from "../components/ui/card-hover-effect"; // Import HoverEffect component
-import Link from "next/link"; // Import Link for Next.js navigation
-import { h1 } from "framer-motion/client";
+
 
 // Define the interface for repository data
 interface Repo {

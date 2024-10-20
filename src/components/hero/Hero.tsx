@@ -1,5 +1,4 @@
 import React from 'react'
-import ParticlesDemo from './HeroParticle';
 import { VelocityScroll } from "../ui/scroll-based-velocity";
 
 

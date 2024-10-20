@@ -8,7 +8,7 @@ import { ArrowRightIcon, Dock, MoveUpRight } from 'lucide-react';
 import AnimatedShinyText from '../ui/animated-shiny-text';
 import FloatingNavDemo from './Navbar';
 import Link from "next/link";
-import RippleDemo from './pop/Ripple';
+
 
 
 
