@@ -17,8 +17,8 @@ const BricolageGrotesque = Bricolage_Grotesque({ subsets: ["latin"] });
 // });
 
 export const metadata: Metadata = {
-  title: "Brajesh-portflio",
-  description: "Brajesh-xoxo portflio",
+  title: "Brajesh-portfolio",
+  description: "Brajesh-xoxo portfolio",
 };
 
 export default function RootLayout({

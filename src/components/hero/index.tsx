@@ -36,7 +36,7 @@ const HeroSection = () => {
           transition={{ delay: 0.5 }}
           className="text-2xl text-gray-400 xl:w-[40rem] text-center"
         >
-          Welcome to brajesh-x-dev Portflio 🛸
+          Welcome to brajesh-x-dev portfolio 🛸
         </motion.p>
 
         <motion.div
@@ -47,7 +47,7 @@ const HeroSection = () => {
           }}
           transition={{ delay: 1 }}
         >
-          <Link href="mailto:your-email@example.com" passHref>
+          <Link href="mailto:workkforbrajesh@gmail.com" passHref>
             <ShimmerButton className="shadow-2xl gap-2">
               <span className="gap-2 flex whitespace-pre-wrap text-center text-sm font-medium leading-none tracking-tight text-white dark:from-white dark:to-slate-900/10 lg:text-lg">
                 Contact me
@@ -56,7 +56,6 @@ const HeroSection = () => {
             </ShimmerButton>
           </Link>
         </motion.div>
-        
       </div>
 
       <ParticlesDemo />
